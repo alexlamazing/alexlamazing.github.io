@@ -1,0 +1,2 @@
+System.register(["./p-4ed3026d.system.js"],(function(e,r){"use strict";var t,n;return{setters:[function(r){t=r.p;n=r.b;e("setNonce",r.s)}],execute:function(){var e=function(){var e=r.meta.url;var n={};if(e!==""){n.resourcesUrl=new URL(".",e).href}return t(n)};e().then((function(e){return n([["p-6ee21806.system",[[1,"icon-trending-crypto-list-widget",{limit:[2],isLoading:[32],error:[32],cryptoTrending:[32]}]]]],e)}))}}}));
+//# sourceMappingURL=p-ad96a638.system.js.map
