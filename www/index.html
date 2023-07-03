@@ -1,2 +1,10 @@
-<!doctype html><html dir="ltr" lang="en"><head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0"> <title>Stencil Component Starter</title> <script type="module" data-stencil data-resources-url="/build/" data-stencil-namespace="icon-widgets">import{p as t,b as o}from"/build/p-a9158023.js";export{s as setNonce}from"./p-a9158023.js";const r=()=>{const o=import.meta.url;const r={};if(o!==""){r.resourcesUrl=new URL(".",o).href}return t(r)};r().then((t=>o([["p-0838a55b",[[1,"icon-trending-crypto-list-widget",{limit:[2],isLoading:[32],error:[32],cryptoTrending:[32]}]]]],t)));
-//# sourceMappingURL=icon-widgets.esm.js.map</script> <script nomodule="" src="/build/icon-widgets.js" data-stencil></script> </head> <body> <icon-trending-crypto-list-widget></icon-trending-crypto-list-widget> </body></html>
+<!doctype html><html dir="ltr" lang="en"><head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0"> <title>Stencil Component Starter</title> <link rel="stylesheet" href="/build/icon-widgets.css"> <script type="module" src="/build/icon-widgets.esm.js" data-stencil></script> <script nomodule="" src="/build/icon-widgets.js" data-stencil></script> </head> <body> <icon-trending-crypto-list-widget></icon-trending-crypto-list-widget> <script>
+if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+  // auto-unregister service worker during dev mode
+  navigator.serviceWorker.getRegistration().then(function(registration) {
+  if (registration) {
+    registration.unregister().then(function() { location.reload(true) });
+  }
+  });
+}
+</script></body></html>
